@@ -1,0 +1,9 @@
+{% include 'store/base.html' %}
+{% load humanize %}
+{% load static %}
+
+{% block content %}
+        <h1>Admin panel</h1>
+        <p>Total sales : $ {{total_sales}}</p>
+        <p>Total user : {{user}}</p>
+{% endblock %}
